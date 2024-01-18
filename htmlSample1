@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>HBO Max</title>
+</head>
+<body>
+  <header>
+    <h1>HBO Max</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Sign In</a></li>
+        <li><button id="startFreeTrial">Start Free Trial</button></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <h2>WHERE HBO MEETS SO MUCH MORE</h2>
+      <p>Enjoy 10 days free, then $14.99/month</p>
+      <button id="freeTrialButton">START YOUR FREE TRIAL</button>
+    </section>
+    <section id="shows">
+      <h3>Shows</h3>
+      <ul>
+        <li><img src="friends.jpg" alt="Friends"></li>
+        <li><img src="westworld.jpg" alt="Westworld"></li>
+        <li><img src="hisdarkmaterials.jpg" alt="His Dark Materials"></li>
+      </ul>
+    </section>
+    <section id="movies">
+      <h3>Movies</h3>
+      <ul>
+        <li><img src="spiritedaway.jpg" alt="Spirited Away"></li>
+        <li><img src="aquaman.jpg" alt="Aquaman"></li>
+      </ul>
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
